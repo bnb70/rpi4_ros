@@ -1,0 +1,31 @@
+[0.530s] Invoking command in '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/src/AutoFollowCar': PYTHONPATH=/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/prefix_override:/home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/AutoFollowCar build --build-base /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build install --record /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/install.log --single-version-externally-managed
+[0.671s] running egg_info
+[0.679s] writing ../../build/AutoFollowCar/AutoFollowCar.egg-info/PKG-INFO
+[0.680s] writing dependency_links to ../../build/AutoFollowCar/AutoFollowCar.egg-info/dependency_links.txt
+[0.680s] writing entry points to ../../build/AutoFollowCar/AutoFollowCar.egg-info/entry_points.txt
+[0.680s] writing requirements to ../../build/AutoFollowCar/AutoFollowCar.egg-info/requires.txt
+[0.680s] writing top-level names to ../../build/AutoFollowCar/AutoFollowCar.egg-info/top_level.txt
+[0.697s] reading manifest file '../../build/AutoFollowCar/AutoFollowCar.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../../build/AutoFollowCar/AutoFollowCar.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.698s] running build_py
+[0.698s] copying AutoFollowCar/publisher_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar
+[0.698s] copying AutoFollowCar/subscriber_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar
+[0.699s] /home/be105/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.699s]   warnings.warn(
+[0.699s] running install
+[0.702s] running install_lib
+[0.711s] copying /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar/publisher_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar
+[0.711s] copying /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar/subscriber_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar
+[0.711s] byte-compiling /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.712s] byte-compiling /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.712s] running install_data
+[0.721s] copying package.xml -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/share/AutoFollowCar
+[0.721s] running install_egg_info
+[0.733s] removing '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar-0.0.0-py3.10.egg-info' (and everything under it)
+[0.733s] Copying ../../build/AutoFollowCar/AutoFollowCar.egg-info to /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar-0.0.0-py3.10.egg-info
+[0.733s] running install_scripts
+[0.842s] Installing listener script to /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/AutoFollowCar
+[0.842s] Installing talker script to /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/AutoFollowCar
+[0.842s] writing list of installed files to '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/install.log'
+[0.867s] Invoked command in '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/src/AutoFollowCar' returned '0': PYTHONPATH=/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/prefix_override:/home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/AutoFollowCar build --build-base /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build install --record /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/install.log --single-version-externally-managed

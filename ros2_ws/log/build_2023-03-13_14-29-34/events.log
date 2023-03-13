@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.001144] (AutoFollowCar) JobQueued: {'identifier': 'AutoFollowCar', 'dependencies': OrderedDict()}
+[0.001222] (AutoFollowCar) JobStarted: {'identifier': 'AutoFollowCar'}
+[0.099845] (-) TimerEvent: {}
+[0.200269] (-) TimerEvent: {}
+[0.300693] (-) TimerEvent: {}
+[0.401098] (-) TimerEvent: {}
+[0.501466] (-) TimerEvent: {}
+[0.528144] (AutoFollowCar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/AutoFollowCar', 'build', '--build-base', '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build', 'install', '--record', '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/install.log', '--single-version-externally-managed'], 'cwd': '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/src/AutoFollowCar', 'env': {'LANGUAGE': 'en_US:en', 'USER': 'be105', 'LC_TIME': 'lzh_TW.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/be105', 'OLDPWD': '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1517', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=58f04a02f0e05a0005ccc00e640eaea2', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'be105', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'be105', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/be105/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/be105/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/x299-ud4-pro:@/tmp/.ICE-unix/1517,unix/x299-ud4-pro:/tmp/.ICE-unix/1517', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1a28865_2fbf_47a2_911e_5d578653235b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.165', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'lzh_TW.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'lzh_TW.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=58f04a02f0e05a0005ccc00e640eaea2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/prefix_override:/home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW.UTF-8', 'LC_PAPER': 'lzh_TW.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.601591] (-) TimerEvent: {}
+[0.672032] (AutoFollowCar) StdoutLine: {'line': b'running egg_info\n'}
+[0.680285] (AutoFollowCar) StdoutLine: {'line': b'writing ../../build/AutoFollowCar/AutoFollowCar.egg-info/PKG-INFO\n'}
+[0.680645] (AutoFollowCar) StdoutLine: {'line': b'writing dependency_links to ../../build/AutoFollowCar/AutoFollowCar.egg-info/dependency_links.txt\n'}
+[0.680878] (AutoFollowCar) StdoutLine: {'line': b'writing entry points to ../../build/AutoFollowCar/AutoFollowCar.egg-info/entry_points.txt\n'}
+[0.681027] (AutoFollowCar) StdoutLine: {'line': b'writing requirements to ../../build/AutoFollowCar/AutoFollowCar.egg-info/requires.txt\n'}
+[0.681165] (AutoFollowCar) StdoutLine: {'line': b'writing top-level names to ../../build/AutoFollowCar/AutoFollowCar.egg-info/top_level.txt\n'}
+[0.698320] (AutoFollowCar) StdoutLine: {'line': b"reading manifest file '../../build/AutoFollowCar/AutoFollowCar.egg-info/SOURCES.txt'\n"}
+[0.698919] (AutoFollowCar) StdoutLine: {'line': b"writing manifest file '../../build/AutoFollowCar/AutoFollowCar.egg-info/SOURCES.txt'\n"}
+[0.699075] (AutoFollowCar) StdoutLine: {'line': b'running build\n'}
+[0.699216] (AutoFollowCar) StdoutLine: {'line': b'running build_py\n'}
+[0.699353] (AutoFollowCar) StdoutLine: {'line': b'copying AutoFollowCar/publisher_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar\n'}
+[0.699491] (AutoFollowCar) StdoutLine: {'line': b'copying AutoFollowCar/subscriber_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar\n'}
+[0.699685] (AutoFollowCar) StderrLine: {'line': b'/home/be105/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.699800] (AutoFollowCar) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.699888] (AutoFollowCar) StdoutLine: {'line': b'running install\n'}
+[0.701634] (-) TimerEvent: {}
+[0.703592] (AutoFollowCar) StdoutLine: {'line': b'running install_lib\n'}
+[0.712255] (AutoFollowCar) StdoutLine: {'line': b'copying /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar/publisher_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar\n'}
+[0.712392] (AutoFollowCar) StdoutLine: {'line': b'copying /home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/build/lib/AutoFollowCar/subscriber_member_function.py -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar\n'}
+[0.712552] (AutoFollowCar) StdoutLine: {'line': b'byte-compiling /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[0.712969] (AutoFollowCar) StdoutLine: {'line': b'byte-compiling /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[0.713264] (AutoFollowCar) StdoutLine: {'line': b'running install_data\n'}
+[0.721884] (AutoFollowCar) StdoutLine: {'line': b'copying package.xml -> /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/share/AutoFollowCar\n'}
+[0.722048] (AutoFollowCar) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.733684] (AutoFollowCar) StdoutLine: {'line': b"removing '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.733934] (AutoFollowCar) StdoutLine: {'line': b'Copying ../../build/AutoFollowCar/AutoFollowCar.egg-info to /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/python3.10/site-packages/AutoFollowCar-0.0.0-py3.10.egg-info\n'}
+[0.734209] (AutoFollowCar) StdoutLine: {'line': b'running install_scripts\n'}
+[0.801759] (-) TimerEvent: {}
+[0.843215] (AutoFollowCar) StdoutLine: {'line': b'Installing listener script to /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/AutoFollowCar\n'}
+[0.843348] (AutoFollowCar) StdoutLine: {'line': b'Installing talker script to /home/be105/PycharmProjects/rpi4_ros/ros2_ws/install/AutoFollowCar/lib/AutoFollowCar\n'}
+[0.843439] (AutoFollowCar) StdoutLine: {'line': b"writing list of installed files to '/home/be105/PycharmProjects/rpi4_ros/ros2_ws/build/AutoFollowCar/install.log'\n"}
+[0.867714] (AutoFollowCar) CommandEnded: {'returncode': 0}
+[0.879276] (AutoFollowCar) JobEnded: {'identifier': 'AutoFollowCar', 'rc': 0}
+[0.879786] (-) EventReactorShutdown: {}

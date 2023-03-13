@@ -1,0 +1,3 @@
+source /opt/ros/humble/setup.bash
+cd /home/be105/PycharmProjects/rpi4_ros/ros2_ws
+colcon build --packages-select AutoFollowCar

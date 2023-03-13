@@ -1,0 +1,10 @@
+source /opt/ros/humble/setup.bash
+
+cd /home/be105/PycharmProjects/rpi4_ros/ros2_ws
+colcon build
+
+cd /home/be105/PycharmProjects/rpi4_ros/ros2_ws/src
+ros2 pkg create --build-type ament_python --node-name my_node AutoFollowCar
+
+cd /home/be105/PycharmProjects/rpi4_ros/ros2_ws
+colcon build
